@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gorosko_19.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Red" CornerRadius="110" Padding="20,50" Margin="80" IsTabStop="False">
+                              <Label Text="Red" TextColor="White" FontSize="Title"/>
+            </Frame>
+            <Frame BackgroundColor="Yellow" CornerRadius="50" Padding="20,50" Margin="80,-65,80,10">
+                <Label Text="Kollane" TextColor="black" FontSize="Title"/>
+            </Frame>
+            <Frame BackgroundColor="Green" CornerRadius="50" Padding="20,50" Margin="80,0,80,10">
+                <Label Text="Green" TextColor="Black" FontSize="Title">
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
